@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "xzs-header": "../../components/xzs-header/xzs-header",
+    "xzs-product-item": "../../components/xzs-product-item/xzs-product-item",
+    "xzs-footer": "../../components/xzs-footer/xzs-footer"
+  }
+}

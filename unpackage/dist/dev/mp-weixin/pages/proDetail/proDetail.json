@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "xzs-header": "../../components/xzs-header/xzs-header",
+    "xzs-footer": "../../components/xzs-footer/xzs-footer"
+  }
+}

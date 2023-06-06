@@ -1,0 +1,1 @@
+<view class="header"><navigator url="/pages/index/index" open-type="switchTab" class="logo"><image src="{{a}}" mode="heightFix" class="pic"/></navigator><view class="search"><van-icon wx:if="{{r0}}" class="vanicon" bindclick="{{b}}" u-t="m" u-i="0200ef8d-0" bind:__l="__l" u-p="{{c}}"/></view></view>

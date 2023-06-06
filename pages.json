@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			}
+		}
+	    ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/classify/classify",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/newDetail/newDetail",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/proDetail/proDetail",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "巷子深茶美文化馆",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundTextStyle": "light",
+		"usingComponents": {
+			// #ifdef MP-WEIXIN
+			"van-button":"/wxcomponents/vant/button/index",
+			"van-tabs":"/wxcomponents/vant/tabs/index",
+			"van-tab":"/wxcomponents/vant/tab/index",
+			"van-icon":"/wxcomponents/vant/icon/index",
+			"van-info":"/wxcomponents/vant/info/index"
+			// #endif
+		}
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+    "color": "#4C4D4E",
+    "selectedColor": "#BDA066",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-fill.png"
+      },{
+        "text": "分类",
+        "pagePath": "pages/classify/classify",
+        "iconPath": "./images/all.png",
+        "selectedIconPath": "./images/all-fill.png"
+      },{
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "./images/news.png",
+        "selectedIconPath": "./images/news-fill.png"
+      }
+    ]
+  },
+  //easycom配置
+  // #ifdef MP-WEIXIN
+  "easycom": {
+  	"autoscan": true,
+	"custom": {
+		"van-(.*)":"@/wxcomponents/vant/$1/index"
+	}
+  }
+  // #endif
+}
